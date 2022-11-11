@@ -1,0 +1,30 @@
+
+$green-color:green;
+$red-color:red;
+$blue-color:blue;
+
+.container{
+    border:1px solid $red-color;
+    text-align: center;
+    .container-title{
+        color:$green-color;
+        border-bottom:1px solid $blue-color;
+        display: inline-block;
+    
+    }
+    .section{
+        display:flex;
+        padding:3em;
+            .blue-color{
+                color:$blue-color;
+                border:1px solid $green-color;
+                padding:2em;
+            }
+            .red-color{
+                color:$red-color;
+                border:1px solid $green-color;
+                padding:2em;
+            }
+            
+        }
+}
