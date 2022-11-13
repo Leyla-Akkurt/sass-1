@@ -6,6 +6,7 @@ $blue-color:blue;
 .container{
     border:1px solid $red-color;
     text-align: center;
+    font-size:20px;
     .container-title{
         color:$green-color;
         border-bottom:1px solid $blue-color;
